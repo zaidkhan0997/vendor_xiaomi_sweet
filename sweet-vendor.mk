@@ -2050,6 +2050,7 @@ PRODUCT_PACKAGES += \
     manifest \
     manifest_android.hardware.drm@1.3-service.widevine \
     power \
+    PowerOffAlarm \
     vendor.qti.gnss@4.0-service \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.vibrator.service
