@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/sweet/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/sweet/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/screen_light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/screen_light.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/sensors/config/adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/adux1050_0.json \
     vendor/xiaomi/sweet/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/xiaomi/sweet/proprietary/vendor/etc/sensors/config/bu27030_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bu27030_0.json \
@@ -279,6 +280,8 @@ PRODUCT_PACKAGES += \
     libalCFR \
     libalLDC \
     libalhLDC \
+    libarcdualcamsat \
+    libarcsat \
     libarcsoft_beautyshot \
     libarcsoft_distortion_correction \
     libarcsoft_dualcam_refocus \
@@ -339,6 +342,7 @@ PRODUCT_PACKAGES += \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
+    libsns_registry_skel \
     libsnsapi \
     libsnsdiaglog \
     libssc \
